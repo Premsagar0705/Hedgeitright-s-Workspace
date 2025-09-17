@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premsagar G | Data Analyst Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; margin: 0; padding: 0; background: #f0f2f5; color: #333; transition: background 0.5s, color 0.5s; }
+    header { background: linear-gradient(135deg, #00b4d8, #0077b6); color: white; padding: 3rem 2rem; text-align: center; position: relative; overflow: hidden; }
+    header h1 { margin: 0; font-size: 3rem; animation: fadeInDown 1s ease; }
+    header p { margin: 0.5rem 0 0; font-size: 1.5rem; }
+    nav { margin-top: 1rem; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; font-size: 1.1rem; transition: color 0.3s; }
+    nav a:hover { color: #90e0ef; }
+    section { padding: 4rem 2rem; max-width: 1200px; margin: auto; }
+    h2 { color: #0077b6; font-size: 2rem; margin-bottom: 1rem; }
+    .card { background: white; border-radius: 15px; padding: 2rem; margin: 2rem 0; box-shadow: 0 8px 24px rgba(0,0,0,0.1); transition: transform 0.3s; }
+    .card:hover { transform: translateY(-10px); }
+    footer { background: #0077b6; color: white; text-align: center; padding: 2rem; margin-top: 3rem; font-size: 1.2rem; }
+    .skills, .languages { display: flex; flex-wrap: wrap; gap: 1rem; }
+    .skills span, .languages span { background: #caf0f8; padding: 0.7rem 1.2rem; border-radius: 25px; font-weight: bold; }
+    #theme-toggle { position: absolute; top: 1rem; right: 1rem; background: white; color: #005f73; border: none; padding: 0.7rem 1.2rem; border-radius: 25px; cursor: pointer; font-weight: bold; }
+    .dark { background: #121212; color: #e0e0e0; }
+    .dark header { background: linear-gradient(135deg, #333, #222); }
+    .dark nav a { color: #e0e0e0; }
+    .dark .card { background: #1e1e1e; }
+    .dark footer { background: #1e1e1e; }
+    .dark .skills span, .dark .languages span { background: #333; }
+    @keyframes fadeInDown { 0% { opacity: 0; transform: translateY(-20px); } 100% { opacity: 1; transform: translateY(0); } }
+    .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
+    .service-card { background: white; border-radius: 15px; padding: 2rem; text-align: center; box-shadow: 0 8px 24px rgba(0,0,0,0.1); transition: 0.3s; }
+    .service-card:hover { transform: translateY(-10px); background: #90e0ef; color: white; }
+  </style>
+</head>
+<body>
+
+<header>
+  <button id="theme-toggle">🌙</button>
+  <h1 id="typed"></h1>
+  <p>Aspiring Data Analyst | FX & Capital Markets | Freelance Services</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#services">Services</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about" data-aos="fade-up">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>Dynamic and results-oriented aspiring Data Analyst, passionate about extracting meaningful insights through data analysis, financial research, and reporting. Adept at data visualization, FX and capital markets analysis, and committed to continuous learning and industry awareness.</p>
+  </div>
+</section>
+
+<section id="skills" data-aos="fade-up">
+  <h2>Skills</h2>
+  <div class="card skills">
+    <span>Data Analysis</span>
+    <span>Microsoft Excel & PowerPoint</span>
+    <span>Financial Analysis & Reporting</span>
+    <span>Data Visualization</span>
+    <span>FX & Capital Markets Analysis</span>
+    <span>C++ & Python</span>
+    <span>SQL</span>
+    <span>Power BI</span>
+    <span>SAS</span>
+  </div>
+</section>
+
+<section id="experience" data-aos="fade-up">
+  <h2>Experience</h2>
+  <div class="card">
+    <h3>Data Analyst - HedgeItRight</h3>
+    <p><em>Oct 2023 - Present | Chennai, India</em></p>
+    <ul>
+      <li>In-depth financial research and FX markets analysis.</li>
+      <li>Developing financial reports and presentations using MS Excel and PowerPoint.</li>
+      <li>Financial modeling and forecasting for decision-making.</li>
+      <li>Creating insightful articles on financial markets and strategies.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>Data Analyst Intern - Statistical Analysis System (SAS)</h3>
+    <p><em>June 2023 - August 2023</em></p>
+    <ul>
+      <li>Planned and led large-scale data initiatives using SAS.</li>
+      <li>Enhanced project productivity and transformation through SAS Studio and Hadoop integration.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>Intern - Harshita Associates PVT LTD</h3>
+    <p><em>June 2022 - July 2022</em></p>
+    <ul>
+      <li>Analyzed real-life data sets to derive structured programs.</li>
+      <li>Maintained professional relationships with employees and customers.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="services" data-aos="fade-up">
+  <h2>Freelance Services</h2>
+  <div class="services">
+    <div class="service-card">
+      <h3>Data Analysis</h3>
+      <p>Offering in-depth data exploration, insights generation, and strategic decision support for businesses.</p>
+    </div>
+    <div class="service-card">
+      <h3>Financial Reporting</h3>
+      <p>Customized financial analysis, reporting solutions, and dashboard creation tailored to client needs.</p>
+    </div>
+    <div class="service-card">
+      <h3>Market Research</h3>
+      <p>Providing comprehensive market studies and competitor analysis for data-driven business strategies.</p>
+    </div>
+  </div>
+</section>
+
+<section id="education" data-aos="fade-up">
+  <h2>Education</h2>
+  <div class="card">
+    <h3>Bachelor of Science - Data Analytics</h3>
+    <p><em>Guru Nanak College, Chennai | 2021-2024 | 74%</em></p>
+  </div>
+  <div class="card">
+    <h3>High School - Commerce & Computer Science</h3>
+    <p><em>Elite Matriculation School, Chennai | 2020-2021 | 80%</em></p>
+  </div>
+</section>
+
+<section id="contact" data-aos="fade-up">
+  <h2>Contact</h2>
+  <div class="card">
+    <p><strong>Email:</strong> <a href="mailto:premoffical007@gmail.com">premoffical007@gmail.com</a></p>
+    <p><strong>Phone:</strong> +91 99623 07054</p>
+    <p><strong>LinkedIn:</strong> <a href="http://www.linkedin.com/in/premsagar-g" target="_blank">linkedin.com/in/premsagar-g</a></p>
+    <div class="languages">
+      <span>English - Advanced</span>
+      <span>Tamil - Proficient</span>
+      <span>Telugu - Intermediate</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Premsagar G | Empowering Data with Passion 💙</p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+  var typed = new Typed('#typed', {
+    strings: ["Premsagar G", "Data Analyst", "Freelance Specialist", "Market Researcher", "Financial Reporter"],
+    typeSpeed: 80,
+    backSpeed: 50,
+    loop: true
+  });
+  const themeToggle = document.getElementById('theme-toggle');
+  themeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+    themeToggle.textContent = document.body.classList.contains('dark') ? '☀️' : '🌙';
+  });
+</script>
+
+</body>
+</html>
